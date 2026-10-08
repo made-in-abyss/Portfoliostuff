@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<head>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1f2937;
+    background-color: #f3f4f6;
+    padding: 30px;
+  }
+  .resume {
+    max-width: 820px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 36px 44px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 4px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .header-text h1 {
+    font-size: 24px;
+    color: #111827;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+  .contact-info {
+    font-size: 13px;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  .contact-info a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  .photo-box {
+    width: 100px;
+    height: 120px;
+    border: 1px dashed #9ca3af;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    color: #6b7280;
+    overflow: hidden;
+    background: #f9fafb;
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+  .photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1e3a8a;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 4px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  p, li {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #374151;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 8px;
+  }
+  li {
+    margin-bottom: 4px;
+  }
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 13.5px;
+    color: #111827;
+    margin-top: 6px;
+  }
+  .item-sub {
+    font-size: 12.5px;
+    color: #4b5563;
+    font-style: italic;
+    margin-bottom: 4px;
+  }
+  .skills-list strong {
+    color: #111827;
+  }
+</style>
+</head>
+<body>
+
+<div class="Hello">
+  <div class="header">
+    <div class="header-text">
+      <h1>Huỳnh Đăng Khôi</h1>
+      <div class="contact-info">
+        Ho Chi Minh City, Vietnam • +84 796 997 210 • h.dangkhoi07022010@gmail.com<br>
+        <a href="https://github.com/made-in-abyss" target="_blank">github.com/made-in-abyss</a> • 
+        <a href="https://linkedin.com/in/khôi-huỳnh-đăng-0ba592398" target="_blank">linkedin.com/in/khôi-huỳnh-đăng-0ba592398</a>
+      </div>
+    </div>
+    <div class="photo-box">
+      <img src="image.png" alt="[Insert Photo Here]" onerror="this.style.display='none'; this.parentNode.innerText='Your Photo (3x4)';">
+    </div>
+  </div>
+  <h2>Profile</h2>
+  <p>
+    Gifted high school student at Le Hong Phong High School for the Gifted with a strong background in competitive programming, algorithmic C++, and financial analysis. Combines formal mathematical problem solving with applied software engineering—engineering multithreaded simulation models and data-driven equity research tools. Seeking early academic research exposure, analytical finance workshops, and mentorship.
+  </p>
+  <h2>Education</h2>
+  <div class="item-header">
+    <span>Le Hong Phong High School for the Gifted, HCMC</span>
+    <span>2025 - 2028 (Expected)</span>
+  </div>
+  <div class="item-sub">Specialized Track in Computer Science</div>
+  <ul>
+    <li>Admitted via selective entrance examination (2025); also earned an entrance pass to VNU-HCM High School for the Gifted.</li>
+    <li>Focus areas: Advanced C++ algorithms, competitive programming mathematics, calculus, and mechanics.</li>
+  </ul>
+  <h2>Honors & Competitions</h2>
+  <ul>
+    <li><strong>Participant</strong> - RMIT Business Innovation Competition (2026): Formulated and pitched innovative enterprise solutions in a collaborative team setting.</li>
+    <li><strong>2nd Place</strong> - City-wide Computer Science Academic Competition (2025).</li>
+    <li><strong>2nd Place</strong> - Province-wide English Language Academic Competition (2024–2025).</li>
+  </ul>
+  <h2>Projects & Technical Experience</h2>
+
+  <div class="item-header">
+    <span>Quantitative & Financial Modeling Repositories</span>
+    <span>C++, Python (ccxt, yfinance, NumPy), OpenMP</span>
+  </div>
+  <div class="item-sub">github.com/made-in-abyss (Headrider Simulation & Analytics)</div>
+  <ul>
+    <li><strong>Headrider Simulation Engine:</strong> Built a hybrid quantitative market simulation engine featuring multithreaded stochastic calculations (Geometric Brownian Motion, Parkinson Volatility) running in C++ via OpenMP.</li>
+    <li><strong>Valuation & Crypto Tooling:</strong> Scripted automated 1-hour interval market data parsers in Python using CCXT alongside parameterized Discounted Cash Flow (DCF) models and Monte Carlo simulations.</li>
+    <li><strong>Equity Research:</strong> Conducted equity research pitches on Vietnamese blue chips (including FPT and MBB) integrating fundamental valuation with systematic price action analysis.</li>
+  </ul>
+  <div class="item-header">
+    <span>Software & Systems Development</span>
+    <span>C#, .NET, Python (Fernet), Git</span>
+  </div>
+  <div class="item-sub">github.com/made-in-abyss (ENCRYPTO & Desktop Tools)</div>
+  <ul>
+    <li><strong>ENCRYPTO Utility:</strong> Designed and published an open-source cryptographic desktop app combining a C# Windows Forms interface with symmetric Python Fernet encryption and end-to-end exception logging.</li>
+  </ul>
+  <h2>Leadership & Community Service</h2>
+  <div class="item-header">
+    <span>Echo Earth Project</span>
+    <span>Core Member</span>
+  </div>
+  <ul>
+    <li>Actively coordinate environmental sustainability campaigns, ecological education initiatives, and youth outreach events across Ho Chi Minh City.</li>
+  </ul>
+  <div class="item-header">
+    <span>Community Engagement && Volunteerism</span>
+    <span>Volunteer</span>
+  </div>
+  <ul>
+    <li>Completed over 200 hours of community volunteer work supporting local charity initiatives and youth welfare programs.</li>
+  </ul>
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <p><strong>Programming & Tools:</strong> C++, Python, C# (.NET/WinForms), OpenMP, Git/GitHub, Linux/CLI</p>
+    <p><strong>Algorithms & Math:</strong> Competitive Programming Data Structures, Dynamic Programming, Applied Calculus, Stochastic Modeling</p>
+    <p><strong>Financial Analysis:</strong> Equity Research & Pitching, DCF Modeling, Volatility Metrics, Systematic Risk Controls</p>
+    <p><strong>Languages:</strong> Vietnamese (Native), English (Fluent – Award Winning)</p>
+  </div>
+</div>
+
+</body>
+</html>
